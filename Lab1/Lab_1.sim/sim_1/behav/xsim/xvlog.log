@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_1/Lab_1.srcs/sources_1/new/DFlipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipflop
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'q' is not allowed [C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_1/Lab_1.srcs/sources_1/new/DFlipflop.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_1/Lab_1.srcs/sim_1/new/testDFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testDFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_1/Lab_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
