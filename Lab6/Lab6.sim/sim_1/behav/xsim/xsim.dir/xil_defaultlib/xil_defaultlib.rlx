@@ -1,0 +1,13 @@
+0.7
+2020.2
+Jun 14 2024
+10:04:17
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/clockDiv.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/hexTo7Segment.v,,clockDiv,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/hexTo7Segment.v,1729575115,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/quadSevenSeg.v,,hexTo7Segment,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/quadSevenSeg.v,1729576215,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart.v,,quadSevenSeg,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/baudrate_gen.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/clockDiv.v,,baudrate_gen,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/system.v,1729575578,verilog,,,,system,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart.v,1729577863,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart_rx.v,,uart,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart_rx.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart_tx.v,,uart_rx,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart_tx.v,1729577666,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/system.v,,uart_tx,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab6/Lab6.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

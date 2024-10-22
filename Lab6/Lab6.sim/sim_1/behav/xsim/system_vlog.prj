@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../HWSYNLAB2021/lab06/sources_1/baudrate_gen.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/clockDiv.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/hexTo7Segment.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/quadSevenSeg.v" \
+"../../../../../HWSYNLAB2021/lab06/sources_1/uart.v" \
+"../../../../../HWSYNLAB2021/lab06/sources_1/uart_rx.v" \
+"../../../../../HWSYNLAB2021/lab06/sources_1/uart_tx.v" \
+"../../../../../HWSYNLAB2021/lab06/sources_1/system.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.1 (64-bit)
+# SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
+# IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
+# SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
+# Start of session at: Tue Oct  1 13:00:39 2024
+# Process ID: 16144
+# Current directory: C:/Users/lucas/Desktop/CP49/ComSynLab/Lab4_3/Lab4_3.runs/impl_1
+# Command line: vivado.exe -log system.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system.tcl -notrace
+# Log file: C:/Users/lucas/Desktop/CP49/ComSynLab/Lab4_3/Lab4_3.runs/impl_1/system.vdi
+# Journal file: C:/Users/lucas/Desktop/CP49/ComSynLab/Lab4_3/Lab4_3.runs/impl_1\vivado.jou
+# Running On        :Lucass
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16781 MB
+# Swap memory       :6174 MB
+# Total Virtual     :22955 MB
+# Available Virtual :11060 MB
+#-----------------------------------------------------------
+source system.tcl -notrace

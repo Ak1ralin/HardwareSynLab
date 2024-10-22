@@ -1,0 +1,10 @@
+0.7
+2020.2
+Jun 14 2024
+10:04:17
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sim_1/new/clkDivtest.v,1724676108,verilog,,,,clkDivtest,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sources_1/new/clockDiv.v,1724675300,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sources_1/new/hex27seg.v,,clockDiv,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sources_1/new/hex27seg.v,1724674531,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sources_1/new/quad7Seg.v,,hex27seg,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sources_1/new/quad7Seg.v,1724677409,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sources_1/new/system.v,,quad7Seg,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab_2/Lab_2.srcs/sources_1/new/system.v,1724742810,verilog,,,,system,,,,,,,,

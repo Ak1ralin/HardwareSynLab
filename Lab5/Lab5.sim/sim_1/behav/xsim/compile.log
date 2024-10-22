@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/extender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/nanocpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nanocpu
+WARNING: [VRFC 10-2938] 'c_flag' is already implicitly declared on line 68 [C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/nanocpu.v:79]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/oldmemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oldmemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sim_1/tester2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tester2

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.1 (64-bit)
+# SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
+# IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
+# SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
+# Start of session at: Tue Oct 22 14:29:00 2024
+# Process ID: 52164
+# Current directory: C:/Users/lucas/Desktop/CP49/ComSynLab/Lab6/Lab6.runs/synth_1
+# Command line: vivado.exe -log system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system.tcl
+# Log file: C:/Users/lucas/Desktop/CP49/ComSynLab/Lab6/Lab6.runs/synth_1/system.vds
+# Journal file: C:/Users/lucas/Desktop/CP49/ComSynLab/Lab6/Lab6.runs/synth_1\vivado.jou
+# Running On        :Lucass
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16781 MB
+# Swap memory       :6174 MB
+# Total Virtual     :22955 MB
+# Available Virtual :9722 MB
+#-----------------------------------------------------------
+source system.tcl -notrace

@@ -1,0 +1,25 @@
+Vivado Simulator v2024.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tester2_behav xil_defaultlib.tester2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 32 for port 'd_address' [C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sim_1/tester2.v:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adder(WIDTH=30)
+Compiling module xil_defaultlib.mux2_1(WIDTH=30)
+Compiling module xil_defaultlib.extender
+Compiling module xil_defaultlib.mux2_1(WIDTH=5)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.nanocpu
+Compiling module xil_defaultlib.oldmemory
+Compiling module xil_defaultlib.tester2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tester2_behav

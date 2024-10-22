@@ -1,0 +1,15 @@
+0.7
+2020.2
+Jun 14 2024
+10:04:17
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sim_1/tester.v,1728973224,verilog,,,,tester,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sim_1/tester2.v,1728975169,verilog,,,,tester2,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/adder.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/alu.v,,adder,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/alu.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/control.v,,alu,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/control.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/extender.v,,control,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/extender.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/mux.v,,extender,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/mux.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/nanocpu.v,,mux2_1,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/nanocpu.v,1728975312,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/oldmemory.v,,nanocpu,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/oldmemory.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/regfile.v,,oldmemory,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/regfile.v,1728363843,verilog,,C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sim_1/tester2.v,,regfile,,,,,,,,
+C:/Users/lucas/Desktop/CP49/ComSynLab/Lab5/Lab5.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

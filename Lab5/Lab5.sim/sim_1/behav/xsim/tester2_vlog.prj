@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../HWSYNLAB2021/lab05/sources_1/adder.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/alu.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/control.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/extender.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/mux.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/nanocpu.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/oldmemory.v" \
+"../../../../../HWSYNLAB2021/lab05/sources_1/regfile.v" \
+"../../../../../HWSYNLAB2021/lab05/sim_1/tester2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

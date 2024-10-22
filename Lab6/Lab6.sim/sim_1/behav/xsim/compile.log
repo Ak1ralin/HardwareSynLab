@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/baudrate_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baudrate_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/clockDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clockDiv
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'clkDiv' is not allowed [C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/clockDiv.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/hexTo7Segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hexTo7Segment
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'segments' is not allowed [C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/hexTo7Segment.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab05/sources_1/quadSevenSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module quadSevenSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/HWSYNLAB2021/lab06/sources_1/system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lucas/Desktop/CP49/ComSynLab/Lab6/Lab6.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
