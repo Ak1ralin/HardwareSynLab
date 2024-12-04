@@ -12,6 +12,7 @@ module text_screen_gen(
     input clk, reset,
     input video_on,
     input set,
+    input en,
     input up,
     input down,
     input left,
@@ -41,7 +42,7 @@ module text_screen_gen(
     wire [6:0] cur_x_next;
     reg [4:0] cur_y_reg;
     wire [4:0] cur_y_next;
-    wire move_xl_tick, move_yu_tick, move_xr_tick, move_yd_tick, cursor_on,put;
+    wire move_xl_tick, move_yu_tick, move_xr_tick, move_yd_tick, cursor_on,put,press;
     // delayed pixel count
     reg [9:0] pix_x1_reg, pix_y1_reg;
     reg [9:0] pix_x2_reg, pix_y2_reg;
@@ -55,6 +56,7 @@ module text_screen_gen(
     debounce_chu db_down(.clk(clk), .reset(reset), .sw(down), .db_level(), .db_tick(move_yd_tick));
     debounce_chu db_right(.clk(clk), .reset(reset), .sw(right), .db_level(), .db_tick(move_xr_tick));
     debounce_chu db_set(.clk(clk), .reset(reset), .sw(set), .db_level(), .db_tick(put));
+    debounce_chu db_en(.clk(clk), .reset(reset), .sw(en), .db_level(), .db_tick(press));
     // instantiate the ascii / font rom
     ascii_rom a_rom(.clk(clk), .addr(rom_addr), .data(font_word));
     // instantiate dual-port video RAM (2^12-by-7)
@@ -96,8 +98,8 @@ module text_screen_gen(
     assign ascii_bit = font_word[~bit_addr];
     // new cursor position
     assign cur_x_next =
-    (put && cur_x_reg == MAX_X - 1) ? 0 :             //x to 0 when x reaches MAX_X - 1
-    (put) ? cur_x_reg + 1 :                           //increase x when write
+    ((put||press) && cur_x_reg == MAX_X - 1) ? 0 :             //x to 0 when x reaches MAX_X - 1
+    (put||press) ? cur_x_reg + 1 :                           //increase x when write
     (move_xr_tick && cur_x_reg == MAX_X - 1) ? 0 :    // Boundary condition for move right
     (move_xr_tick) ? cur_x_reg + 1 :                  // Move right
     (move_xl_tick && cur_x_reg == 0) ? MAX_X - 1 :    // Boundary condition for move left
@@ -105,8 +107,8 @@ module text_screen_gen(
     cur_x_reg;                                        // Retain current x
 
     assign cur_y_next =
-    (put && cur_x_reg == MAX_X - 1 && cur_y_reg == MAX_Y - 1) ? 0 :  // Reset y to 0 when both x and y reach max
-    (put && cur_x_reg == MAX_X - 1) ? cur_y_reg + 1 :                // Increment y when x reaches MAX_X - 1
+    ((put||press) && cur_x_reg == MAX_X - 1 && cur_y_reg == MAX_Y - 1) ? 0 :  // Reset y to 0 when both x and y reach max
+    ((put||press) && cur_x_reg == MAX_X - 1) ? cur_y_reg + 1 :                // Increment y when x reaches MAX_X - 1
     (move_xr_tick && cur_x_reg == MAX_X - 1)? cur_y_reg + 1 :
     (move_yu_tick && cur_y_reg == 0) ? MAX_Y - 1 :
     (move_yd_tick && cur_y_reg == MAX_Y - 1) ? 0 :                  // Boundary condition for move up/down
