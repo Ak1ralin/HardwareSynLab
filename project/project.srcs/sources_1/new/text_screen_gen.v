@@ -12,7 +12,6 @@ module text_screen_gen(
     input clk, reset,
     input video_on,
     input set,
-    input en,
     input up,
     input down,
     input left,
@@ -55,7 +54,7 @@ module text_screen_gen(
     debounce_chu db_up(.clk(clk), .reset(reset), .sw(up), .db_level(), .db_tick(move_yu_tick));
     debounce_chu db_down(.clk(clk), .reset(reset), .sw(down), .db_level(), .db_tick(move_yd_tick));
     debounce_chu db_right(.clk(clk), .reset(reset), .sw(right), .db_level(), .db_tick(move_xr_tick));
-    debounce_chu db_set(.clk(clk), .reset(reset), .sw(set || en), .db_level(), .db_tick(put));
+    debounce_chu db_set(.clk(clk), .reset(reset), .sw(set), .db_level(), .db_tick(put));
     // instantiate the ascii / font rom
     ascii_rom a_rom(.clk(clk), .addr(rom_addr), .data(font_word));
     // instantiate dual-port video RAM (2^12-by-7)

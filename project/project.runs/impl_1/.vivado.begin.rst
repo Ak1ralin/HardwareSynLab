@@ -23,3 +23,48 @@
     <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="3852" HostCore="20" HostMemory="016781975552">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="9552" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="22256" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="15312" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="19408" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="4788" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="6088" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="12908" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="6216" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="14760" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
