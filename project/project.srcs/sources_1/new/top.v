@@ -20,23 +20,24 @@ module top(
     wire w_vid_on, w_p_tick;
     reg [11:0] rgb_reg;
     wire [11:0] rgb_next;
-    reg en, last_rec;
+    reg en, last_rec, sset;
     reg [7:0] data_in;
     wire [7:0] data_out;
     wire sent, received, baud;
-    wire sset;
-    debounce_chu db_set(.clk(clk), .reset(reset), .sw(set), .db_level(), .db_tick(sset));
     baudrate_gen baudrate_gen(clk, baud);
+    
     uart_rx receiver(baud, RsRx, received, data_out);
     uart_tx transmitter(baud, data_in, en, sent, RsTx);
-    
     always @(posedge baud) begin
         if (en) en = 0;
         if (~last_rec & received) begin
             data_in = data_out;
             en = 1;
         end
-        if(sset)data_in = sw;
+        if(set)begin
+            data_in = sw; 
+            en = 1; 
+        end
         last_rec = received;
     end
     
@@ -46,9 +47,9 @@ module top(
                        .x(w_x), .y(w_y));
     
     // instantiate text generation circuit
-    text_screen_gen tsg(.clk(clk), .reset(reset), .video_on(w_vid_on), .set(set),
+    text_screen_gen tsg(.clk(clk), .reset(reset), .video_on(w_vid_on), .set(set), .en(en),
                         .up(up), .down(down), .left(left), .right(right),
-                        .sw(data_in[7:1]), .x(w_x), .y(w_y), .rgb(rgb_next));
+                        .sw(data_in[6:0]), .x(w_x), .y(w_y), .rgb(rgb_next));
     
     // rgb buffer
     always @(posedge clk)
