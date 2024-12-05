@@ -12,7 +12,7 @@ module text_screen_gen(
     input clk, reset,
     input video_on,
     input set,
-    input en,
+//    input en,
     input up,
     input down,
     input left,
@@ -56,7 +56,7 @@ module text_screen_gen(
     debounce_chu db_down(.clk(clk), .reset(reset), .sw(down), .db_level(), .db_tick(move_yd_tick));
     debounce_chu db_right(.clk(clk), .reset(reset), .sw(right), .db_level(), .db_tick(move_xr_tick));
     debounce_chu db_set(.clk(clk), .reset(reset), .sw(set), .db_level(), .db_tick(put));
-    debounce_chu db_en(.clk(clk), .reset(reset), .sw(en), .db_level(), .db_tick(press));
+//    debounce_chu db_en(.clk(clk), .reset(reset), .sw(en), .db_level(), .db_tick(press));
     // instantiate the ascii / font rom
     ascii_rom a_rom(.clk(clk), .addr(rom_addr), .data(font_word));
     // instantiate dual-port video RAM (2^12-by-7)
@@ -99,7 +99,7 @@ module text_screen_gen(
     // new cursor position
     assign cur_x_next =
     ((put||press) && cur_x_reg == MAX_X - 1) ? 0 :             //x to 0 when x reaches MAX_X - 1
-    (put||press) ? cur_x_reg + 1 :                           //increase x when write
+    ( put ||press) ? cur_x_reg + 1 :                           //increase x when write
     (move_xr_tick && cur_x_reg == MAX_X - 1) ? 0 :    // Boundary condition for move right
     (move_xr_tick) ? cur_x_reg + 1 :                  // Move right
     (move_xl_tick && cur_x_reg == 0) ? MAX_X - 1 :    // Boundary condition for move left

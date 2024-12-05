@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1.1 (win64) Build 5094488 Fri Jun 14 08:59:21 MDT 2024
-| Date         : Wed Dec  4 14:55:39 2024
+| Date         : Thu Dec  5 19:57:38 2024
 | Host         : Lucass running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    28 |
-|    Minimum number of control sets                        |    28 |
+| Total control sets                                       |    27 |
+|    Minimum number of control sets                        |    27 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |   115 |
+| Unused register locations in slices containing registers |   106 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,7 +39,7 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    28 |
+| Total control sets |    27 |
 | >= 0 to < 4        |    10 |
 | >= 4 to < 6        |     2 |
 | >= 6 to < 8        |     2 |
@@ -47,7 +47,7 @@ Table of Contents
 | >= 10 to < 12      |     2 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |     8 |
+| >= 16              |     7 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,11 +58,11 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               8 |            4 |
-| No           | No                    | Yes                    |              76 |           26 |
+| No           | No                    | No                     |               8 |            5 |
+| No           | No                    | Yes                    |              74 |           23 |
 | No           | Yes                   | No                     |              48 |           12 |
-| Yes          | No                    | No                     |              28 |           13 |
-| Yes          | No                    | Yes                    |             148 |           47 |
+| Yes          | No                    | No                     |              28 |           14 |
+| Yes          | No                    | Yes                    |             127 |           33 |
 | Yes          | Yes                   | No                     |               1 |            1 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -73,34 +73,33 @@ Table of Contents
 +----------------+-----------------------------+---------------------------------+------------------+----------------+--------------+
 |  Clock Signal  |        Enable Signal        |         Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------+-----------------------------+---------------------------------+------------------+----------------+--------------+
-|  baud_BUFG     | receiver/data_out_0[2]      |                                 |                1 |              1 |         1.00 |
-|  baud_BUFG     | receiver/data_out_0[5]      |                                 |                1 |              1 |         1.00 |
-|  baud_BUFG     | receiver/data_out_0[0]      |                                 |                1 |              1 |         1.00 |
 |  baud_BUFG     | receiver/data_out_0[6]      |                                 |                1 |              1 |         1.00 |
-|  baud_BUFG     | receiver/data_out_0[7]      |                                 |                1 |              1 |         1.00 |
-|  baud_BUFG     | receiver/data_out_0[1]      |                                 |                1 |              1 |         1.00 |
-|  baud_BUFG     | receiver/data_out_0[3]      |                                 |                1 |              1 |         1.00 |
 |  baud_BUFG     | receiver/data_out_0[4]      |                                 |                1 |              1 |         1.00 |
-|  baud_BUFG     | transmitter/bit_out_i_2_n_0 | transmitter/bit_out_i_1_n_0     |                1 |              1 |         1.00 |
+|  baud_BUFG     | receiver/data_out_0[0]      |                                 |                1 |              1 |         1.00 |
+|  baud_BUFG     | receiver/data_out_0[7]      |                                 |                1 |              1 |         1.00 |
+|  baud_BUFG     | receiver/data_out_0[3]      |                                 |                1 |              1 |         1.00 |
+|  baud_BUFG     | receiver/data_out_0[5]      |                                 |                1 |              1 |         1.00 |
+|  baud_BUFG     | receiver/data_out_0[1]      |                                 |                1 |              1 |         1.00 |
+|  baud_BUFG     | receiver/data_out_0[2]      |                                 |                1 |              1 |         1.00 |
+|  baud_BUFG     | transmitter/bit_out_i_2_n_0 | transmitter/bit_out0            |                1 |              1 |         1.00 |
 |  clk_IBUF_BUFG |                             |                                 |                1 |              1 |         1.00 |
-|  clk_IBUF_BUFG | vga/CLK                     |                                 |                1 |              4 |         4.00 |
-|  clk_IBUF_BUFG | tsg/db_down/E[0]            | reset_IBUF                      |                3 |              5 |         1.67 |
-|  baud_BUFG     |                             |                                 |                3 |              7 |         2.33 |
+|  clk_IBUF_BUFG | vga/CLK                     |                                 |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | tsg/db_down/E[0]            | reset_IBUF                      |                2 |              5 |         2.50 |
+|  baud_BUFG     |                             |                                 |                4 |              7 |         1.75 |
 |  clk_IBUF_BUFG | tsg/db_left/E[0]            | reset_IBUF                      |                4 |              7 |         1.75 |
-|  baud_BUFG     |                             | receiver/count[7]_i_1_n_0       |                2 |              8 |         4.00 |
 |  baud_BUFG     |                             | transmitter/count[7]_i_1__0_n_0 |                2 |              8 |         4.00 |
-|  baud_BUFG     | receiver/E[0]               |                                 |                1 |              8 |         8.00 |
-|  baud_BUFG     | transmitter/temp[7]_i_1_n_0 |                                 |                3 |              8 |         2.67 |
-|  vga/CLK       |                             | reset_IBUF                      |                4 |             10 |         2.50 |
+|  baud_BUFG     |                             | receiver/count[7]_i_1_n_0       |                2 |              8 |         4.00 |
+|  baud_BUFG     | transmitter/temp[7]_i_1_n_0 |                                 |                2 |              8 |         4.00 |
+|  baud_BUFG     | receiver/E[0]               |                                 |                2 |              8 |         4.00 |
+|  vga/CLK       |                             | reset_IBUF                      |                3 |             10 |         3.33 |
 |  vga/CLK       | vga/v_count_next_1          | reset_IBUF                      |                3 |             10 |         3.33 |
-|  clk_IBUF_BUFG | tsg/db_down/q_next          | reset_IBUF                      |                7 |             21 |         3.00 |
-|  clk_IBUF_BUFG | tsg/db_en/q_next            | reset_IBUF                      |                6 |             21 |         3.50 |
-|  clk_IBUF_BUFG | tsg/db_left/q_next_0        | reset_IBUF                      |                5 |             21 |         4.20 |
-|  clk_IBUF_BUFG | tsg/db_right/q_next         | reset_IBUF                      |                6 |             21 |         3.50 |
-|  clk_IBUF_BUFG | tsg/db_set/q_next           | reset_IBUF                      |                8 |             21 |         2.62 |
+|  clk_IBUF_BUFG | tsg/db_set/q_next           | reset_IBUF                      |                6 |             21 |         3.50 |
 |  clk_IBUF_BUFG | tsg/db_up/q_next            | reset_IBUF                      |                5 |             21 |         4.20 |
+|  clk_IBUF_BUFG | tsg/db_down/q_next          | reset_IBUF                      |                6 |             21 |         3.50 |
+|  clk_IBUF_BUFG | tsg/db_left/q_next_0        | reset_IBUF                      |                4 |             21 |         5.25 |
+|  clk_IBUF_BUFG | tsg/db_right/q_next         | reset_IBUF                      |                3 |             21 |         7.00 |
 |  clk_IBUF_BUFG |                             | baudrate_gen/clear              |                8 |             32 |         4.00 |
-|  clk_IBUF_BUFG |                             | reset_IBUF                      |               22 |             66 |         3.00 |
+|  clk_IBUF_BUFG |                             | reset_IBUF                      |               20 |             64 |         3.20 |
 +----------------+-----------------------------+---------------------------------+------------------+----------------+--------------+
 
 
