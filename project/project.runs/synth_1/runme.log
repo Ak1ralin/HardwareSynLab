@@ -8,12 +8,12 @@
   **** SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
   **** IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
   **** SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
-  **** Start of session at: Thu Dec  5 19:56:09 2024
+  **** Start of session at: Thu Dec  5 20:19:39 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source top.tcl -notrace
-create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 532.324 ; gain = 199.727
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 529.180 ; gain = 200.289
 Command: read_checkpoint -auto_incremental -incremental C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/utils_1/imports/synth_1/top.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -27,11 +27,222 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3268
+INFO: [Synth 8-7075] Helper process launched with PID 15380
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1384.766 ; gain = 451.137
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1387.281 ; gain = 448.312
 ---------------------------------------------------------------------------------
+WARNING: [Synth 8-10929] literal value 'he010 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1134]
+WARNING: [Synth 8-10929] literal value 'he011 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1135]
+WARNING: [Synth 8-10929] literal value 'he012 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1136]
+WARNING: [Synth 8-10929] literal value 'he013 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1137]
+WARNING: [Synth 8-10929] literal value 'he014 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1138]
+WARNING: [Synth 8-10929] literal value 'he015 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1139]
+WARNING: [Synth 8-10929] literal value 'he016 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1140]
+WARNING: [Synth 8-10929] literal value 'he017 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1141]
+WARNING: [Synth 8-10929] literal value 'he018 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1142]
+WARNING: [Synth 8-10929] literal value 'he019 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1143]
+WARNING: [Synth 8-10929] literal value 'he01a truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1144]
+WARNING: [Synth 8-10929] literal value 'he01b truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1145]
+WARNING: [Synth 8-10929] literal value 'he01c truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1146]
+WARNING: [Synth 8-10929] literal value 'he01d truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1147]
+WARNING: [Synth 8-10929] literal value 'he01e truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1148]
+WARNING: [Synth 8-10929] literal value 'he01f truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1149]
+WARNING: [Synth 8-10929] literal value 'he020 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1152]
+WARNING: [Synth 8-10929] literal value 'he021 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1153]
+WARNING: [Synth 8-10929] literal value 'he022 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1154]
+WARNING: [Synth 8-10929] literal value 'he023 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1155]
+WARNING: [Synth 8-10929] literal value 'he024 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1156]
+WARNING: [Synth 8-10929] literal value 'he025 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1157]
+WARNING: [Synth 8-10929] literal value 'he026 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1158]
+WARNING: [Synth 8-10929] literal value 'he027 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1159]
+WARNING: [Synth 8-10929] literal value 'he028 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1160]
+WARNING: [Synth 8-10929] literal value 'he029 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1161]
+WARNING: [Synth 8-10929] literal value 'he02a truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1162]
+WARNING: [Synth 8-10929] literal value 'he02b truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1163]
+WARNING: [Synth 8-10929] literal value 'he02c truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1164]
+WARNING: [Synth 8-10929] literal value 'he02d truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1165]
+WARNING: [Synth 8-10929] literal value 'he02e truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1166]
+WARNING: [Synth 8-10929] literal value 'he02f truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1167]
+WARNING: [Synth 8-10929] literal value 'he030 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1170]
+WARNING: [Synth 8-10929] literal value 'he031 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1171]
+WARNING: [Synth 8-10929] literal value 'he032 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1172]
+WARNING: [Synth 8-10929] literal value 'he033 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1173]
+WARNING: [Synth 8-10929] literal value 'he034 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1174]
+WARNING: [Synth 8-10929] literal value 'he035 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1175]
+WARNING: [Synth 8-10929] literal value 'he036 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1176]
+WARNING: [Synth 8-10929] literal value 'he037 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1177]
+WARNING: [Synth 8-10929] literal value 'he038 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1178]
+WARNING: [Synth 8-10929] literal value 'he039 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1179]
+WARNING: [Synth 8-10929] literal value 'he03a truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1180]
+WARNING: [Synth 8-10929] literal value 'he03b truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1181]
+WARNING: [Synth 8-10929] literal value 'he03c truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1182]
+WARNING: [Synth 8-10929] literal value 'he03d truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1183]
+WARNING: [Synth 8-10929] literal value 'he03e truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1184]
+WARNING: [Synth 8-10929] literal value 'he03f truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1185]
+WARNING: [Synth 8-10929] literal value 'he040 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1188]
+WARNING: [Synth 8-10929] literal value 'he041 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1189]
+WARNING: [Synth 8-10929] literal value 'he042 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1190]
+WARNING: [Synth 8-10929] literal value 'he043 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1191]
+WARNING: [Synth 8-10929] literal value 'he044 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1192]
+WARNING: [Synth 8-10929] literal value 'he045 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1193]
+WARNING: [Synth 8-10929] literal value 'he046 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1194]
+WARNING: [Synth 8-10929] literal value 'he047 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1195]
+WARNING: [Synth 8-10929] literal value 'he048 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1196]
+WARNING: [Synth 8-10929] literal value 'he049 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1197]
+WARNING: [Synth 8-10929] literal value 'he04a truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1198]
+WARNING: [Synth 8-10929] literal value 'he04b truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1199]
+WARNING: [Synth 8-10929] literal value 'he04c truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1200]
+WARNING: [Synth 8-10929] literal value 'he04d truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1201]
+WARNING: [Synth 8-10929] literal value 'he04e truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1202]
+WARNING: [Synth 8-10929] literal value 'he04f truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1203]
+WARNING: [Synth 8-10929] literal value 'he050 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1206]
+WARNING: [Synth 8-10929] literal value 'he051 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1207]
+WARNING: [Synth 8-10929] literal value 'he052 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1208]
+WARNING: [Synth 8-10929] literal value 'he053 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1209]
+WARNING: [Synth 8-10929] literal value 'he054 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1210]
+WARNING: [Synth 8-10929] literal value 'he055 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1211]
+WARNING: [Synth 8-10929] literal value 'he056 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1212]
+WARNING: [Synth 8-10929] literal value 'he057 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1213]
+WARNING: [Synth 8-10929] literal value 'he058 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1214]
+WARNING: [Synth 8-10929] literal value 'he059 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1215]
+WARNING: [Synth 8-10929] literal value 'he05a truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1216]
+WARNING: [Synth 8-10929] literal value 'he05b truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1217]
+WARNING: [Synth 8-10929] literal value 'he05c truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1218]
+WARNING: [Synth 8-10929] literal value 'he05d truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1219]
+WARNING: [Synth 8-10929] literal value 'he05e truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1220]
+WARNING: [Synth 8-10929] literal value 'he05f truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1221]
+WARNING: [Synth 8-10929] literal value 'he060 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1224]
+WARNING: [Synth 8-10929] literal value 'he061 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1225]
+WARNING: [Synth 8-10929] literal value 'he062 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1226]
+WARNING: [Synth 8-10929] literal value 'he063 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1227]
+WARNING: [Synth 8-10929] literal value 'he064 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1228]
+WARNING: [Synth 8-10929] literal value 'he065 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1229]
+WARNING: [Synth 8-10929] literal value 'he066 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1230]
+WARNING: [Synth 8-10929] literal value 'he067 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1231]
+WARNING: [Synth 8-10929] literal value 'he068 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1232]
+WARNING: [Synth 8-10929] literal value 'he069 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1233]
+WARNING: [Synth 8-10929] literal value 'he06a truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1234]
+WARNING: [Synth 8-10929] literal value 'he06b truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1235]
+WARNING: [Synth 8-10929] literal value 'he06c truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1236]
+WARNING: [Synth 8-10929] literal value 'he06d truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1237]
+WARNING: [Synth 8-10929] literal value 'he06e truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1238]
+WARNING: [Synth 8-10929] literal value 'he06f truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1239]
+WARNING: [Synth 8-10929] literal value 'he070 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1242]
+WARNING: [Synth 8-10929] literal value 'he071 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1243]
+WARNING: [Synth 8-10929] literal value 'he072 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1244]
+WARNING: [Synth 8-10929] literal value 'he073 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1245]
+INFO: [Common 17-14] Message 'Synth 8-10929' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ascii_test' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_test.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ascii_rom' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1]
+WARNING: [Synth 8-151] case item 11'b01100000000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100000001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100000010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100000011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100000100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100000101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100000110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100000111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100001111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100010111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100011111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100100111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100101111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100110111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01100111111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101000111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101001111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101010111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011100 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011101 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011110 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101011111 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101100000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101100001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101100010 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+WARNING: [Synth 8-151] case item 11'b01101100011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
+INFO: [Common 17-14] Message 'Synth 8-151' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'ascii_rom' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_test' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_test.v:3]
+WARNING: [Synth 8-7071] port 'reset' of module 'ascii_test' is unconnected for instance 'at' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:42]
+WARNING: [Synth 8-7023] instance 'at' of module 'ascii_test' has 8 connections declared, but only 7 given [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:42]
+INFO: [Synth 8-6157] synthesizing module 'uart' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart.v:22]
 INFO: [Synth 8-6157] synthesizing module 'baudrate_gen' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/baudrate_gen.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'baudrate_gen' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/baudrate_gen.v:23]
 INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart_rx.v:23]
@@ -40,78 +251,188 @@ INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (0#1) [C:/Users/lucas/De
 INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart_tx.v:23]
 INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart_tx.v:50]
 INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart_tx.v:23]
-INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/vga_controller.v:21]
-INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/vga_controller.v:21]
-INFO: [Synth 8-6157] synthesizing module 'text_screen_gen' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/text_screen_gen.v:11]
-INFO: [Synth 8-6157] synthesizing module 'debounce_chu' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/debounce_chu.v:10]
-INFO: [Synth 8-226] default block is never used [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/debounce_chu.v:51]
-INFO: [Synth 8-6155] done synthesizing module 'debounce_chu' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/debounce_chu.v:10]
-INFO: [Synth 8-6157] synthesizing module 'ascii_rom' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:21]
-INFO: [Synth 8-6155] done synthesizing module 'ascii_rom' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:21]
-INFO: [Synth 8-6157] synthesizing module 'dual_port_ram' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/dual_port_ram.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'dual_port_ram' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/dual_port_ram.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'text_screen_gen' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/text_screen_gen.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart.v:22]
 INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:3]
-WARNING: [Synth 8-3848] Net press in module/entity text_screen_gen does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/text_screen_gen.v:45]
+WARNING: [Synth 8-3848] Net ja2 in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:11]
+WARNING: [Synth 8-3848] Net seg in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:15]
+WARNING: [Synth 8-3848] Net dp in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:16]
+WARNING: [Synth 8-3848] Net an in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:17]
+WARNING: [Synth 8-3848] Net gnd_b in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:32]
+WARNING: [Synth 8-7129] Port reset in module ascii_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[7] in module ascii_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ja2 in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[0] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[0] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnU in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ja1 in module top is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1502.281 ; gain = 568.652
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1521.738 ; gain = 582.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1502.281 ; gain = 568.652
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1521.738 ; gain = 582.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1502.281 ; gain = 568.652
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1521.738 ; gain = 582.770
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1502.281 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1521.738 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja3'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja3'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1600.875 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1619.980 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1600.875 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1619.980 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'debounce_chu'
----------------------------------------------------------------------------------------------------
-                   State |                     New Encoding |                Previous Encoding 
----------------------------------------------------------------------------------------------------
-                    zero |                               00 |                               00
-                   wait1 |                               01 |                               11
-                     one |                               10 |                               10
-                   wait0 |                               11 |                               01
----------------------------------------------------------------------------------------------------
-INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'debounce_chu'
-WARNING: [Synth 8-6430] The Block RAM "dual_port_ram:/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -119,35 +440,26 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input   32 Bit       Adders := 1     
-	   2 Input   21 Bit       Adders := 5     
 	   2 Input   10 Bit       Adders := 2     
 	   2 Input    8 Bit       Adders := 2     
-	   2 Input    7 Bit       Adders := 2     
-	   2 Input    5 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 2     
 	   2 Input    2 Bit       Adders := 1     
 +---Registers : 
-	               21 Bit    Registers := 5     
-	               12 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
 	               11 Bit    Registers := 1     
-	               10 Bit    Registers := 8     
-	                8 Bit    Registers := 5     
-	                7 Bit    Registers := 1     
-	                5 Bit    Registers := 1     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 4     
+	                7 Bit    Registers := 128   
 	                2 Bit    Registers := 1     
 	                1 Bit    Registers := 12    
-+---RAMs : 
-	              28K Bit	(4096 X 7 bit)          RAMs := 1     
 +---ROMs : 
 	                    ROMs := 1     
 +---Muxes : 
-	   4 Input   21 Bit        Muxes := 5     
-	   5 Input    8 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 2     
 	   2 Input    8 Bit        Muxes := 1     
-	   4 Input    2 Bit        Muxes := 5     
-	   2 Input    2 Bit        Muxes := 15    
-	   2 Input    1 Bit        Muxes := 13    
-	   4 Input    1 Bit        Muxes := 15    
-	   6 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -164,34 +476,45 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-RAM Pipeline Warning: Read Address Register Found For RAM tsg/dp_ram/ram_reg. We will not be able to pipeline it. This may degrade performance. 
-RAM Pipeline Warning: Read Address Register Found For RAM tsg/dp_ram/ram_reg. We will not be able to pipeline it. This may degrade performance. 
-RAM Pipeline Warning: Read Address Register Found For RAM tsg/dp_ram/ram_reg. We will not be able to pipeline it. This may degrade performance. 
-WARNING: [Synth 8-6430] The Block RAM "top/tsg/dp_ram/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
-RAM Pipeline Warning: Read Address Register Found For RAM tsg/dp_ram/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-7129] Port reset in module ascii_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[7] in module ascii_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ja2 in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port seg[0] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dp in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port an[0] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnU in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ja1 in module top is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
 ROM: Preliminary Mapping Report
-+------------+------------------------+---------------+----------------+
-|Module Name | RTL Object             | Depth x Width | Implemented As | 
-+------------+------------------------+---------------+----------------+
-|top         | tsg/a_rom/addr_reg_reg | 2048x8        | Block RAM      | 
-+------------+------------------------+---------------+----------------+
++------------+------------------+---------------+----------------+
+|Module Name | RTL Object       | Depth x Width | Implemented As | 
++------------+------------------+---------------+----------------+
+|ascii_test  | rom/addr_reg_reg | 2048x8        | Block RAM      | 
++------------+------------------+---------------+----------------+
 
-
-Block RAM: Preliminary Mapping Report (see note below)
-+------------+--------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|Module Name | RTL Object         | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
-+------------+--------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|top         | tsg/dp_ram/ram_reg | 4 K x 7(READ_FIRST)    | W |   | 4 K x 7(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
-+------------+--------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-
-Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
@@ -199,35 +522,20 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1600.875 ; gain = 667.246
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP, Shift Register and Retiming Reporting
----------------------------------------------------------------------------------
-
-Block RAM: Final Mapping Report
-+------------+--------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|Module Name | RTL Object         | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
-+------------+--------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|top         | tsg/dp_ram/ram_reg | 4 K x 7(READ_FIRST)    | W |   | 4 K x 7(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
-+------------+--------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-7052] The timing for the instance tsg/dp_ram/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance tsg/a_rom/addr_reg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance at/rom/addr_reg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -245,37 +553,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -291,44 +599,47 @@ Report Cell Usage:
 +------+---------+------+
 |      |Cell     |Count |
 +------+---------+------+
-|1     |BUFG     |     2|
-|2     |CARRY4   |    41|
-|3     |LUT1     |   109|
-|4     |LUT2     |    26|
-|5     |LUT3     |    22|
-|6     |LUT4     |   152|
+|1     |BUFG     |     4|
+|2     |CARRY4   |    16|
+|3     |LUT1     |     7|
+|4     |LUT2     |    61|
+|5     |LUT3     |    24|
+|6     |LUT4     |    18|
 |7     |LUT5     |    41|
-|8     |LUT6     |    70|
-|9     |MUXF7    |     1|
-|10    |RAMB18E1 |     1|
-|11    |RAMB36E1 |     1|
-|12    |FDCE     |   201|
-|13    |FDRE     |    82|
-|14    |IBUF     |    15|
-|15    |OBUF     |    15|
+|8     |LUT6     |   450|
+|9     |MUXF7    |   120|
+|10    |MUXF8    |    56|
+|11    |RAMB18E1 |     1|
+|12    |FDCE     |    47|
+|13    |FDRE     |   982|
+|14    |FDSE     |     6|
+|15    |IBUF     |     3|
+|16    |OBUF     |    15|
+|17    |OBUFT    |    13|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1600.875 ; gain = 568.652
-Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1600.875 ; gain = 667.246
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.980 ; gain = 582.770
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1600.875 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1619.980 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 193 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1600.875 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1619.980 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 76714540
+Synth Design complete | Checksum: 2837ca02
 INFO: [Common 17-83] Releasing license: Synthesis
-47 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+43 Infos, 292 Warnings, 34 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:38 . Memory (MB): peak = 1600.875 ; gain = 1056.336
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1600.875 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1619.980 ; gain = 1077.375
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1619.980 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.runs/synth_1/top.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Dec  5 19:57:01 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  5 20:20:15 2024...

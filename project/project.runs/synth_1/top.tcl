@@ -56,6 +56,8 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 5
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -74,10 +76,9 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v
+  C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_test.v
   C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/baudrate_gen.v
-  C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/debounce_chu.v
-  C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/dual_port_ram.v
-  C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/text_screen_gen.v
+  C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart.v
   C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart_rx.v
   C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart_tx.v
   C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/vga_controller.v

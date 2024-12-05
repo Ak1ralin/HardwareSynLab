@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2024/12/04 21:36:59
+// Create Date: 10/31/2021 09:59:35 PM
 // Design Name: 
 // Module Name: uart
 // Project Name: 
@@ -19,34 +19,32 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module uart(
     input clk,
-    input RsRx,
-    input [7:0] data_in,
-    input [6:0] sw,
-    input transmit,
-    input press,
-    output RsTx,
-    output [7:0]data_out,
+    input rx,
+    input [7:0] data_transmit,
+//    input sent,
+    input dte, // data_transmit_enable
+    output tx,
+    output [7:0] data_received,
     output received
     );
     
     reg en, last_rec;
     wire [7:0] data;
-    wire sent, baud;
-    //pick data
-    assign data = (transmit)?data_in:data_out;
-    //re clk
+    wire baud;
+    wire sent;
+    assign data = (dte) ? data_transmit : data_received;
     baudrate_gen baudrate_gen(clk, baud);
-    uart_rx receiver(baud, RsRx, received, data_out);
-    uart_tx transmitter(baud, data, en, sent, RsTx);
+    uart_rx receiver(baud, rx, received, data_received);
+    uart_tx transmitter(baud, data, en, sent, tx);
     
     always @(posedge baud) begin
         if (en) en = 0;
-        if (~last_rec & received || transmit || press) begin
+        if ((~last_rec & received) || dte) begin // if received or pass enable
             en = 1;
         end
         last_rec = received;
     end
+    
 endmodule
