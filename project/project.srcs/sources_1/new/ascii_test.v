@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module ascii_test(
+module text_generator(
     input clk,                 // Clock signal
     input reset,               // Reset signal
     input we,                  // Write enable signal from UART
@@ -57,16 +57,12 @@ module ascii_test(
     end
     // RGB multiplexing logic with gradient
     always @* begin
-        if (~video_on)
-            rgb = 12'h000; // Display blank screen
-        else if (plot) begin
-            // Gradient based on x position
-            rgb[11:8] = x[7:4];    // Red intensity (higher nibble of x)
-            rgb[7:4] = x[3:0];     // Green intensity (lower nibble of x)
-            rgb[3:0] = itr[3:0];   // Blue intensity (based on itr)
-        end
-        else
-            rgb = 12'hFFF; // White background
+    if (~video_on)
+        rgb = 12'h000; // Display blank screen when video is off
+    else if (plot) begin
+        rgb = 12'hFFF; // White color for characters
+    end else
+        rgb = 12'h000; // Black background
     end
 
 endmodule

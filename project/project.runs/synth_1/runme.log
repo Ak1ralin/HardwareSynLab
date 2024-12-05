@@ -8,12 +8,12 @@
   **** SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
   **** IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
   **** SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
-  **** Start of session at: Thu Dec  5 20:19:39 2024
+  **** Start of session at: Thu Dec  5 20:50:00 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source top.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 529.180 ; gain = 200.289
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 530.051 ; gain = 199.539
 Command: read_checkpoint -auto_incremental -incremental C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/utils_1/imports/synth_1/top.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -27,9 +27,9 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 15380
+INFO: [Synth 8-7075] Helper process launched with PID 16812
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1387.281 ; gain = 448.312
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1387.117 ; gain = 449.043
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-10929] literal value 'he010 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1134]
 WARNING: [Synth 8-10929] literal value 'he011 truncated to fit in 11 bits [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1135]
@@ -135,7 +135,7 @@ INFO: [Common 17-14] Message 'Synth 8-10929' appears 100 times and further insta
 INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:3]
 INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/vga_controller.v:21]
 INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/vga_controller.v:21]
-INFO: [Synth 8-6157] synthesizing module 'ascii_test' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_test.v:3]
+INFO: [Synth 8-6157] synthesizing module 'text_generator' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_test.v:3]
 INFO: [Synth 8-6157] synthesizing module 'ascii_rom' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1]
 WARNING: [Synth 8-151] case item 11'b01100000000 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
 WARNING: [Synth 8-151] case item 11'b01100000001 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
@@ -239,9 +239,9 @@ WARNING: [Synth 8-151] case item 11'b01101100010 is unreachable [C:/Users/lucas/
 WARNING: [Synth 8-151] case item 11'b01101100011 is unreachable [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:15]
 INFO: [Common 17-14] Message 'Synth 8-151' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-6155] done synthesizing module 'ascii_rom' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_rom.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'ascii_test' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_test.v:3]
-WARNING: [Synth 8-7071] port 'reset' of module 'ascii_test' is unconnected for instance 'at' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:42]
-WARNING: [Synth 8-7023] instance 'at' of module 'ascii_test' has 8 connections declared, but only 7 given [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'text_generator' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/ascii_test.v:3]
+WARNING: [Synth 8-7071] port 'reset' of module 'text_generator' is unconnected for instance 'tg' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:39]
+WARNING: [Synth 8-7023] instance 'tg' of module 'text_generator' has 8 connections declared, but only 7 given [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:39]
 INFO: [Synth 8-6157] synthesizing module 'uart' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart.v:22]
 INFO: [Synth 8-6157] synthesizing module 'baudrate_gen' [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/baudrate_gen.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'baudrate_gen' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/baudrate_gen.v:23]
@@ -254,25 +254,10 @@ INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (0#1) [C:/Users/lucas/De
 INFO: [Synth 8-6155] done synthesizing module 'uart' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/uart.v:22]
 INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:3]
 WARNING: [Synth 8-3848] Net ja2 in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:11]
-WARNING: [Synth 8-3848] Net seg in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:15]
-WARNING: [Synth 8-3848] Net dp in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:16]
-WARNING: [Synth 8-3848] Net an in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:17]
-WARNING: [Synth 8-3848] Net gnd_b in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:32]
-WARNING: [Synth 8-7129] Port reset in module ascii_test is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data[7] in module ascii_test is either unconnected or has no load
+WARNING: [Synth 8-3848] Net gnd_b in module/entity top does not have driver. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/sources_1/new/top.v:29]
+WARNING: [Synth 8-7129] Port reset in module text_generator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[7] in module text_generator is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ja2 in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[6] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[5] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[4] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[3] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[2] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[1] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[0] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port dp in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[3] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[2] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[1] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[0] in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port btnU in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port sw[7] in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port sw[6] in module top is either unconnected or has no load
@@ -284,155 +269,53 @@ WARNING: [Synth 8-7129] Port sw[1] in module top is either unconnected or has no
 WARNING: [Synth 8-7129] Port sw[0] in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ja1 in module top is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1521.738 ; gain = 582.770
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1520.633 ; gain = 582.559
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1521.738 ; gain = 582.770
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1520.633 ; gain = 582.559
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1521.738 ; gain = 582.770
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1520.633 ; gain = 582.559
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1521.738 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1520.633 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc]
-WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:81]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:81]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:82]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:82]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:83]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:83]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:84]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:84]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:85]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:85]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:86]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:86]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:87]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:87]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:88]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:88]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:89]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:89]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:90]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:90]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:91]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:91]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:92]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:92]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:93]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:93]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:94]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:94]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:95]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:95]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:96]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:96]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:97]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:97]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:98]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:98]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:99]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:99]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:100]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:100]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:101]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:101]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:102]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:102]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:103]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:103]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:104]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:104]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:105]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:105]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:106]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:106]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:107]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:107]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:108]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:108]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:109]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:109]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:110]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:110]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:111]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:111]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:112]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:112]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'ja3'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:166]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:166]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'ja3'. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:167]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc:167]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.srcs/constrs_1/new/const_text_gen.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1619.980 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1612.914 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1619.980 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1612.914 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -457,7 +340,7 @@ Detailed RTL Component Info :
 +---ROMs : 
 	                    ROMs := 1     
 +---Muxes : 
-	   2 Input   12 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 1     
 	   2 Input    8 Bit        Muxes := 1     
 	   2 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
@@ -476,21 +359,9 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-7129] Port reset in module ascii_test is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data[7] in module ascii_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module text_generator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[7] in module text_generator is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ja2 in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[6] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[5] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[4] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[3] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[2] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[1] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port seg[0] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port dp in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[3] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[2] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[1] in module top is either unconnected or has no load
-WARNING: [Synth 8-7129] Port an[0] in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port btnU in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port sw[7] in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port sw[6] in module top is either unconnected or has no load
@@ -502,18 +373,18 @@ WARNING: [Synth 8-7129] Port sw[1] in module top is either unconnected or has no
 WARNING: [Synth 8-7129] Port sw[0] in module top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ja1 in module top is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
 ROM: Preliminary Mapping Report
-+------------+------------------+---------------+----------------+
-|Module Name | RTL Object       | Depth x Width | Implemented As | 
-+------------+------------------+---------------+----------------+
-|ascii_test  | rom/addr_reg_reg | 2048x8        | Block RAM      | 
-+------------+------------------+---------------+----------------+
++---------------+------------------+---------------+----------------+
+|Module Name    | RTL Object       | Depth x Width | Implemented As | 
++---------------+------------------+---------------+----------------+
+|text_generator | rom/addr_reg_reg | 2048x8        | Block RAM      | 
++---------------+------------------+---------------+----------------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -522,20 +393,20 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-7052] The timing for the instance at/rom/addr_reg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance tg/rom/addr_reg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -553,37 +424,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -599,47 +470,46 @@ Report Cell Usage:
 +------+---------+------+
 |      |Cell     |Count |
 +------+---------+------+
-|1     |BUFG     |     4|
+|1     |BUFG     |     3|
 |2     |CARRY4   |    16|
-|3     |LUT1     |     7|
-|4     |LUT2     |    61|
-|5     |LUT3     |    24|
-|6     |LUT4     |    18|
-|7     |LUT5     |    41|
-|8     |LUT6     |   450|
-|9     |MUXF7    |   120|
+|3     |LUT1     |     8|
+|4     |LUT2     |    24|
+|5     |LUT3     |    11|
+|6     |LUT4     |    23|
+|7     |LUT5     |   148|
+|8     |LUT6     |   290|
+|9     |MUXF7    |   121|
 |10    |MUXF8    |    56|
 |11    |RAMB18E1 |     1|
 |12    |FDCE     |    47|
-|13    |FDRE     |   982|
+|13    |FDRE     |   971|
 |14    |FDSE     |     6|
 |15    |IBUF     |     3|
 |16    |OBUF     |    15|
-|17    |OBUFT    |    13|
+|17    |OBUFT    |     1|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.980 ; gain = 582.770
-Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1619.980 ; gain = 681.012
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1612.914 ; gain = 582.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1612.914 ; gain = 674.840
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1619.980 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 193 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1612.914 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 194 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1619.980 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1612.914 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 2837ca02
+Synth Design complete | Checksum: a339cef5
 INFO: [Common 17-83] Releasing license: Synthesis
-43 Infos, 292 Warnings, 34 Critical Warnings and 0 Errors encountered.
+43 Infos, 231 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1619.980 ; gain = 1077.375
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1619.980 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1612.914 ; gain = 1070.078
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1612.914 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.runs/synth_1/top.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Dec  5 20:20:15 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  5 20:50:37 2024...

@@ -113,3 +113,18 @@
     <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="11732" HostCore="20" HostMemory="016781975552">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="14876" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="4744" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="lucas" Host="LUCASS" Pid="10020" HostCore="20" HostMemory="016781975552">
+    </Process>
+</ProcessHandle>
