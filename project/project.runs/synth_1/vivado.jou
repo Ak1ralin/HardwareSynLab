@@ -3,8 +3,8 @@
 # SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
 # IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
 # SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
-# Start of session at: Thu Dec  5 20:50:00 2024
-# Process ID: 19900
+# Start of session at: Thu Dec  5 21:17:16 2024
+# Process ID: 8040
 # Current directory: C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: C:/Users/lucas/Desktop/CP49/ComSynLab/project/project.runs/synth_1/top.vds
@@ -19,6 +19,6 @@
 # Host memory       :16781 MB
 # Swap memory       :5637 MB
 # Total Virtual     :22419 MB
-# Available Virtual :10589 MB
+# Available Virtual :10410 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

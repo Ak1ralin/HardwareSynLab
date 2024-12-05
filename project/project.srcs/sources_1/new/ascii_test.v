@@ -23,6 +23,12 @@ module text_generator(
     wire [2:0] bit_addr;          // Column number of ROM data
     wire [7:0] rom_data;          // 8-bit row data from text ROM
     wire ascii_bit, plot;         // ASCII ROM bit and plot signal
+    //cursor
+    wire cursor_active;
+    assign cursor_active = (x >= 192 && x < 448) && (y >= 208 && y < 272) &&
+                       ((x[9:3] - 24) == (itr % 32)) && // Adjusted to grid offset
+                       ((y[8:4] - 13) == (itr / 32));  // Adjusted to grid offset
+    //cursor
     
     integer i ;
     initial begin
@@ -59,10 +65,12 @@ module text_generator(
     always @* begin
     if (~video_on)
         rgb = 12'h000; // Display blank screen when video is off
-    else if (plot) begin
+    else if (cursor_active) 
+        rgb = 12'hFFF; // White block for cursor
+    else if (plot) 
         rgb = 12'hFFF; // White color for characters
-    end else
+    else
         rgb = 12'h000; // Black background
-    end
+end
 
 endmodule

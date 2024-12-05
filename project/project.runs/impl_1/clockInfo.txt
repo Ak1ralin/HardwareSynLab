@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.1.1
-| Date         : Thu Dec  5 20:51:06 2024
+| Date         : Thu Dec  5 21:18:20 2024
 | Host         : Lucass
 | Design       : design_1
 | Device       : xc7a35t-cpg236-1--

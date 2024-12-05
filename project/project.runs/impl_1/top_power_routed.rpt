@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.1.1 (win64) Build 5094488 Fri Jun 14 08:59:21 MDT 2024
-| Date             : Thu Dec  5 20:51:23 2024
+| Date             : Thu Dec  5 21:18:37 2024
 | Host             : Lucass running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.079        |
+| Total On-Chip Power (W)  | 0.081        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.007        |
+| Dynamic (W)              | 0.009        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.6         |
@@ -53,18 +53,18 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |     0.002 |     1748 |       --- |             --- |
-|   LUT as Logic |     0.002 |      411 |     20800 |            1.98 |
-|   Register     |    <0.001 |     1035 |     41600 |            2.49 |
-|   CARRY4       |    <0.001 |       16 |      8150 |            0.20 |
-|   F7/F8 Muxes  |    <0.001 |      177 |     32600 |            0.54 |
+| Slice Logic    |     0.003 |     1806 |       --- |             --- |
+|   LUT as Logic |     0.003 |      486 |     20800 |            2.34 |
+|   Register     |    <0.001 |     1034 |     41600 |            2.49 |
+|   CARRY4       |    <0.001 |       22 |      8150 |            0.27 |
+|   F7/F8 Muxes  |    <0.001 |      176 |     32600 |            0.54 |
 |   BUFG         |    <0.001 |        2 |        32 |            6.25 |
 |   Others       |     0.000 |       15 |       --- |             --- |
-| Signals        |     0.002 |     1364 |       --- |             --- |
+| Signals        |     0.003 |     1406 |       --- |             --- |
 | Block RAM      |    <0.001 |      0.5 |        50 |            1.00 |
-| I/O            |    <0.001 |       19 |       106 |           17.92 |
+| I/O            |     0.001 |       19 |       106 |           17.92 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.079 |          |           |                 |
+| Total          |     0.081 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -74,7 +74,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.016 |       0.006 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.017 |       0.008 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -143,8 +143,8 @@ Table of Contents
 +---------+-----------+
 | Name    | Power (W) |
 +---------+-----------+
-| top     |     0.007 |
-|   tg    |     0.003 |
+| top     |     0.009 |
+|   tg    |     0.004 |
 |     rom |     0.002 |
 |   uart1 |     0.001 |
 |   vga   |     0.002 |
