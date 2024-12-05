@@ -1,5 +1,3 @@
-`timescale 1ns / 1ps
-
 module text_generator(
     input clk,                 // Clock signal
     input reset,               // Reset signal
@@ -26,10 +24,10 @@ module text_generator(
     //cursor
     wire cursor_active;
     assign cursor_active = (x >= 192 && x < 448) && (y >= 208 && y < 272) &&
-                       ((x[9:3] - 24) == (itr % 32)) && // Adjusted to grid offset
-                       ((y[8:4] - 13) == (itr / 32));  // Adjusted to grid offset
+                           ((x[9:3] - 24) == (itr % 32)) &&
+                           ((y[8:4] - 13) == (itr / 32));
     //cursor
-    
+
     integer i ;
     initial begin
         itr = 7'b1 ;
@@ -44,10 +42,16 @@ module text_generator(
     assign ascii_bit = rom_data[~bit_addr];     // Reverse bit order for ASCII character
     assign char_row = y[3:0];                   // Row number of ASCII character
     assign bit_addr = x[2:0];                   // Column number of ASCII character
-    assign ascii_char = mem[((x[7:3] + 8) & 5'b11111) + 32 * ((y[5:4] + 3) & 2'b11)];
+    assign ascii_char = mem[((x[7:3] - 24) & 5'b11111) + 32 * ((y[5:4] - 13) & 2'b11)];
     
     assign plot = ((x >= 192 && x < 448) && (y >= 208 && y < 272)) ? ascii_bit : 1'b0;
 
+    // Box logic for drawing a border
+    wire box_edge = ((188 <= x && x <= 190 && 206 <= y && y <= 273)  || 
+                     (449 <= x && x <= 451 && 206 <= y && y <= 273)  || 
+                     (204 <= y && y <= 206 && 188 <= x && x <= 451)  || 
+                     (271 <= y && y <= 273 && 188 <= x && x <= 451)); // Box edges
+    
     // Memory write logic
     always @(posedge we) begin
         mem[0] = 7'h3e ;
@@ -58,19 +62,22 @@ module text_generator(
         end 
         else begin
             mem[itr] = data[6:0] ;
-            itr = 1 + (itr%(MEMSIZE-1)) ;
+            itr = 1 + (itr % (MEMSIZE - 1)) ;
         end
     end
-    // RGB multiplexing logic with gradient
+
+    // RGB multiplexing logic with gradient and box drawing
     always @* begin
-    if (~video_on)
-        rgb = 12'h000; // Display blank screen when video is off
-    else if (cursor_active) 
-        rgb = 12'hFFF; // White block for cursor
-    else if (plot) 
-        rgb = 12'hFFF; // White color for characters
-    else
-        rgb = 12'h000; // Black background
-end
+        if (~video_on)
+            rgb = 12'h000; // Display blank screen when video is off
+        else if (cursor_active) 
+            rgb = 12'hFFF; // White block for cursor
+        else if (box_edge) 
+            rgb = 12'hFFF; // White color for box edges
+        else if (plot) 
+            rgb = 12'hFFF; // White color for characters
+        else
+            rgb = 12'h000; // Black background
+    end
 
 endmodule
